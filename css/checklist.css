@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'after_shokregular';
+    src: url('../fonts/After_Shok-webfont.eot');
+    src: url('../fonts/After_Shok-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/After_Shok-webfont.woff2') format('woff2'),
+         url('../fonts/After_Shok-webfont.woff') format('woff'),
+         url('../fonts/After_Shok-webfont.ttf') format('truetype'),
+         url('../fonts/After_Shok-webfont.svg#after_shokregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+  background-image: linear-gradient(to right top, #6456d7, #5b5cd9, #5361da, #4a66db, #416adb, #2e77e2, #1984e7, #0090eb, #00a6ef, #00b8e8, #00c9dc, #3bd7cd);
+}
+header nav{
+  background-color:rgba(0,0,0,0.3);
+}
+header nav h1{
+  font-size: 2rem;
+  color:rgba(124,8,12,0.914);
+  font-family: 'after_shokregular';
+  text-shadow: -4px 2px rgba(113,101,22,0.674);
+}
+header nav ul li{
+  font-family: serif;
+  color:#001536;
+  font-size: 1.1rem;
+}
+main p,section.tablePart table{
+  color:#001536;
+  font-size: 1.2rem;
+  text-shadow: -1px 2px #000c21;
+}
+section.tablePart table:hover th,
+section.tablePart table:hover td{
+  color:#1c1f24;
+  font-size: 1rem;
+  text-shadow: 0 0 rgba(113,101,22,0.674);
+  transition-duration: 1.5s;
+}
+nav ul li:hover a{
+  transition-duration: .6s;
+  color:rgba(229,245,91,0.418);
+}
+footer a img{
+  margin-left: 10px;
+  height: 100px;
+  width: 100px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: transform 1.2s;
+}
+footer a:hover img.image{
+  transform: scale(1.2);
+}
+.fa-heart{
+  font-size: 1.5rem;
+  color:rgba(238,30,119,0.594);
+}
+.fa-arrow-alt-circle-up{
+  color: #001154;
+  font-size: 2rem;
+}

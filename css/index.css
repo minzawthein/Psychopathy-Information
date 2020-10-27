@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'after_shokregular';
+    src: url('../fonts/After_Shok-webfont.eot');
+    src: url('../fonts/After_Shok-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/After_Shok-webfont.woff2') format('woff2'),
+         url('../fonts/After_Shok-webfont.woff') format('woff'),
+         url('../fonts/After_Shok-webfont.ttf') format('truetype'),
+         url('../fonts/After_Shok-webfont.svg#after_shokregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'archisticobold';
+    src: url('../fonts/Archistico_Bold-webfont.eot');
+    src: url('../fonts/Archistico_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Archistico_Bold-webfont.woff2') format('woff2'),
+         url('../fonts/Archistico_Bold-webfont.woff') format('woff'),
+         url('../fonts/Archistico_Bold-webfont.ttf') format('truetype'),
+         url('../fonts/Archistico_Bold-webfont.svg#archisticobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+  font-family: 'after_shokregular';
+   background-image: linear-gradient(to right top, #6456d7, #5b5cd9, #5361da, #4a66db, #416adb, #2e77e2, #1984e7, #0090eb, #00a6ef, #00b8e8, #00c9dc, #3bd7cd);
+}
+header section nav{
+  background-color:rgba(0,0,0,0.4);
+}
+header section nav h1{
+  color:rgba(124,8,12,0.914);
+  padding-bottom: 0;
+  font-family: 'after_shokregular';
+  text-shadow: -3px 2px rgba(0,32,96,0.834);
+  text-transform: uppercase;
+}
+header section ul li a{
+  font-family: serif;
+  color: teal;
+  font-size: 1.2rem;
+}
+header section ul li:hover a{
+  transition-duration: .6s;
+  color:white;
+}
+main#main-body article#animate{
+  background-color: #6f9ce3;
+  text-align: center;
+}
+main#main-body article#animate span{
+  background-color: #6f9ce3;
+  font-size: 2.2rem;
+  font-family: 'archisticobold';
+  color:rgba(0,96,155,0.694);
+  cursor: pointer;
+  transition: padding-left .9s;
+}
+main#main-body article#animate span:hover{
+  padding-left: 20px;
+}
+main#main-body article.animation div.carousel-inner img.photo{
+  margin-left: 170px;
+}
+main section.card{
+    border-radius:0 !important;
+    transition: box-shadow 0.5s;
+    margin-bottom: 20px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+main section div.card-body{
+  font-family: sans-serif;
+  line-height: 1.3rem;
+}
+
+main section:hover{
+  box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+main section div.card-body h4{
+  color:rgba(10,44,208,0.864);
+  font-family:'serif';
+  border-bottom: 1px solid rgba(0,0,0, .6);
+}
+main section a{
+  color:#7C8082;
+  font-family: serif;
+  font-size: .9rem;
+  transition:padding-left 1.5s;
+}
+main section div.card-body span:hover a{
+  padding-left: 10px;
+  color: teal;
+}
+footer a img{
+  margin-left: 10px;
+  height: 100px;
+  width: 100px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: transform 1.2s;
+}
+footer a:hover img.image{
+  transform: scale(1.2);
+}
+.fa-heart{
+  font-size: 1.5rem;
+  color:rgba(238,30,119,0.594);
+}
+.fa-arrow-alt-circle-up{
+  color: #001154;
+  font-size: 2rem;
+}
+@media screen and (max-width:720px) {
+  main#main-body article.animation div.carousel-inner img.photo{
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width:480px) {
+  main#main-body article.animation div.carousel-inner img.photo{
+    margin-left: 60px;
+  }
+}
